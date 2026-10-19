@@ -1,0 +1,9 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Portfolio Tracker</title>
+<script>
+  var path = location.pathname.replace(/\/$/, '');
+  var base = path.indexOf('/portfolio-tracker') === 0 ? '/portfolio-tracker' : '';
+  var rest = path.slice(base.length) || '/';
+  location.replace(base + '/#' + rest + location.search + location.hash);
+</script>

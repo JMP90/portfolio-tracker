@@ -1,0 +1,24 @@
+# Plaintext portfolio data must never be committed. The published copy is data/*.enc only.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.json
+!package-lock.json
+attachments/
+**/attachments/**
+data/raw/
+data/plain/
+*.csv
+*.xlsx
+*.xls
+*.tar
+*.tar.gz
+*.gz
+INITIAL_PASSWORD.txt
+.env
+.env.*
+*.pem
+*.key
+_site/
+node_modules/
